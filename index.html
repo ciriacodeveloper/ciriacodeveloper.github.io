@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Joseph Ciriaco</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hola, soy Joseph Ciriaco</h1>
+        <p>Soy desarrollador web freelance con 5 años de experiencia, especializado en diseño responsivo y soluciones a
+            medida.</p>
+        <a href="#contact" class="btn">Contáctame</a>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Mis Habilidades</h2>
+        <div class="skill-list">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript / PHP</div>
+            <div class="skill">MYSQL</div>
+            <div class="skill">Diseño UI/UX</div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="images/geosatelital.webp" alt="Proyecto 1" />
+                <div class="info">
+                    <h3>Proyecto Geosatelital</h3>
+                    <p>Se desarrollo una página web corporativa para la empresa Geosatelital Perú y Ecuador.</p>
+                    <a class="btn" href="https://geosatelital.com.pe" target="_blank" rel="noopener noreferrer">Ver
+                        proyecto</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/satelock.png" alt="imagen de satelock" />
+                <div class="info">
+                    <h3>Proyecto Satelock</h3>
+                    <p>Se desarrollo una página web corporativa para la empresa Satelock.</p>
+                    <a class="btn" href="https://satelock.com" target="_blank" rel="noopener noreferrer">Ver
+                        proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Tu nombre" required />
+            <input type="email" name="email" placeholder="Tu correo" required />
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Joseph Ciriaco. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
